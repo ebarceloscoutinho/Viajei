@@ -1,0 +1,21 @@
+{
+  "name": "Roteira — Viagens e Roteiros",
+  "short_name": "Roteira",
+  "description": "Monte roteiros, reserve passeios e calcule o custo da sua viagem.",
+  "start_url": "index.php",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "lang": "pt-BR",
+  "background_color": "#ffffff",
+  "theme_color": "#0f766e",
+  "icons": [
+    {"src": "assets/img/icon-192.png", "sizes": "192x192", "type": "image/png"},
+    {"src": "assets/img/icon-512.png", "sizes": "512x512", "type": "image/png"},
+    {"src": "assets/img/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ],
+  "shortcuts": [
+    {"name": "Quanto custa a viagem?", "url": "quiz_custo.php"},
+    {"name": "Minhas reservas", "url": "minhas_reservas.php"}
+  ]
+}

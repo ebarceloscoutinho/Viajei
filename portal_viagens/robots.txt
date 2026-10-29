@@ -1,0 +1,9 @@
+# Ajuste os caminhos se o site estiver numa subpasta (ex.: /portal_viagens/admin/)
+User-agent: *
+Disallow: /admin/
+Disallow: /guia/
+Disallow: /api/
+Disallow: /minha_conta.php
+Disallow: /pagamento.php
+Disallow: /voucher.php
+# Sitemap: https://SEU-DOMINIO/sitemap.xml
